@@ -6,6 +6,7 @@
 }
 .wrap {
     padding: 32px 0 64px;
+    /*background-color: #e0c1ff;*/
     background: linear-gradient(-20deg, #d558c8 0%, #6fdcf5 100%);
 }
 
@@ -23,6 +24,22 @@
 
 .heading-lv2 {
     font-size: 24px;
+}
+
+h2 span{
+    border-bottom: 2px solid #6fdcf5;
+    border-image: linear-gradient(to right, #6fdcf5 0%, #d558c8 100%);
+    border-image-slice: 1;
+}
+h3 span{
+    border-bottom: 2px solid #6fdcf5;
+    border-image: linear-gradient(to right, #6fdcf5 0%, #d558c8 100%);
+    border-image-slice: 1;
+}
+h4 span{
+    border-bottom: 2px solid #6fdcf5;
+    border-image: linear-gradient(to right, #6fdcf5 0%, #d558c8 100%);
+    border-image-slice: 1;
 }
 
 .heading-lv3 {
